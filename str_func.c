@@ -18,13 +18,13 @@ int str_len(char *str)
 }
 
 /**
- * str_cpy - Copys a str to a new location
+ * str_copy - Copys a str to a new location
  * @dest: The destination
  * @src: The Source
  *
  * Return: Pointer to Dest
  */
-char *str_cpy(char *dest, char *src)
+char *str_copy(char *dest, char *src)
 {
 	int i;
 
@@ -39,14 +39,14 @@ char *str_cpy(char *dest, char *src)
 }
 
 /**
- * str_n_cpy - Copys n bytes of a str to a new location
+ * str_n_copy - Copys n bytes of a str to a new location
  * @dest: The destination
  * @src: The Source
  * @n: Number of bytes to be copied
  *
  * Return: Pointer to Dest
  */
-char *str_n_cpy(char *dest, char *src, int n)
+char *str_n_copy(char *dest, char *src, int n)
 {
 	int index;
 
